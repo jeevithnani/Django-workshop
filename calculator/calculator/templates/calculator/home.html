@@ -1,0 +1,19 @@
+<h1>HOME PAGE</h1>
+<form action={% url 'calc' %}>
+    <div class="radio">
+        <label><input type="radio" name="optradio" value='+' >PLUS</label>
+    </div>
+    <div class="radio">
+        <label><input type="radio" name="optradio" value='-' >MINUS</label>
+    </div>
+    <div class="radio">
+        <label><input type="radio" name="optradio" value='*'>MULTIPLY</label>
+    </div>
+    <div class="radio">
+        <label><input type="radio" name="optradio" value='/'>DIVIDE</label>
+    </div>
+    <br/>
+    <input name='field1'>
+    <input name='field2'>
+    <button type='submit'>SUBMIT</button>
+</form>
